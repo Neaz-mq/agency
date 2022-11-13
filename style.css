@@ -1,24 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&display=swap');
 
 * {
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    outline: none;
-    border: none;
-    text-decoration: none;
-    text-transform: capitalize;
-    transition: 0.2s linear;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: 0.2s linear;
 }
 
 :root {
-    --black: #16161d;
-    --white: #fff;
-    --light-color: #808080;
-    --light-bg: #f5f5f8;
-    --google-color: #4285f4;
-    --twitter-color: #1da1f2;
+  --black: #16161d;
+  --white: #fff;
+  --light-color: #808080;
+  --light-bg: #f5f5f8;
+  --google-color: #4285f4;
+  --twitter-color: #1da1f2;
   --youtube-color: #ff0000;
   --linkedin-color: #0e76a8;
 
@@ -36,17 +36,15 @@
 }
 
 
-
 nav {
 
   display: flex;
   padding: 2% 6%;
   justify-content: space-between;
   align-items: center;
-  
-  
-}
 
+
+}
 
 
 nav img {
@@ -55,7 +53,7 @@ nav img {
 }
 
 .nav-links {
-  
+
   flex: 1;
   text-align: right;
 }
@@ -192,9 +190,9 @@ nav img {
 /* about */
 
 .about .box-container .box h1 {
-   margin-top: 70px;
-   text-align: center;
-   font-size: 2rem;
+  margin-top: 70px;
+  text-align: center;
+  font-size: 2rem;
 
 }
 
@@ -213,6 +211,7 @@ nav img {
   height: 20rem;
 
 }
+
 .about .box-container .box .image img {
   width: 80%;
   height: 100%;
@@ -220,8 +219,9 @@ nav img {
   margin-top: 70px;
   margin-left: 40px;
   box-shadow: 18px 18px 8px gray;
- 
+
 }
+
 .about .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
@@ -229,51 +229,50 @@ nav img {
 }
 
 @media(max-width: 700px) {
-  
+
   .about .box-container .box h1 {
     margin-top: 70px;
     text-align: center;
     font-size: 2rem;
     margin-left: -10px;
- 
- }
- .about .box-container .box .image {
-  height: 20rem;
 
-}
-.about .box-container .box .image img {
-  width: 80%;
-  height: 100%;
-  object-fit: cover;
-  margin-top: -30px;
-  margin-left: 32px;
-  box-shadow: 18px 18px 8px gray;
-  
+  }
 
-  
+  .about .box-container .box .image {
+    height: 20rem;
 
- 
-}
- .about .box-container .box p {
- 
+  }
 
-  font-size: 1.3rem;
-  line-height: 1.4;
-  margin-bottom: 1.5rem;
-  color: var(--light-color);
-  text-transform: none;
-  margin-top: 20px;
-  margin-left: 30px;
-  margin-right: 12px;
-  
-  
-}
+  .about .box-container .box .image img {
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: -30px;
+    margin-left: 32px;
+    box-shadow: 18px 18px 8px gray;
 
-.about .box-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-  gap: 5rem;
-}
+  }
+
+  .about .box-container .box p {
+
+
+    font-size: 1.3rem;
+    line-height: 1.4;
+    margin-bottom: 1.5rem;
+    color: var(--light-color);
+    text-transform: none;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 12px;
+
+
+  }
+
+  .about .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 5rem;
+  }
 
 }
 
@@ -285,10 +284,10 @@ nav img {
   padding-bottom: 30px;
 }
 
-.services .heading{
+.services .heading {
   text-align: center;
-padding-top: 40px;
-font-size: 2rem;
+  padding-top: 40px;
+  font-size: 2rem;
 }
 
 .services .box-container {
@@ -323,20 +322,23 @@ font-size: 2rem;
   line-height: 2;
   color: var(--light-color);
 }
+
 .services .box-container .box:hover {
   background: var(--black);
 }
+
 .services .box-container .box:hover h3,
 .services .box-container .box:hover p {
   color: var(--white);
 }
+
 .services .box-container .box:hover img {
   filter: invert(100%);
 }
 
 /* works */
 
-.works .heading{
+.works .heading {
 
   text-align: center;
   margin-top: 50px;
@@ -351,8 +353,9 @@ font-size: 2rem;
   margin-left: 50px;
   margin-right: 40px;
   margin-top: 30px;
-  
+
 }
+
 .works .box-container .box .image img {
   width: 100%;
   height: 100%;
@@ -363,9 +366,10 @@ font-size: 2rem;
 .works .box-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-margin-bottom: 30px;
+  margin-bottom: 30px;
 
 }
+
 .works .box-container .box .image .content {
   position: absolute;
   left: 0;
@@ -379,6 +383,7 @@ margin-bottom: 30px;
   z-index: 70;
   transform: translateY(100%);
 }
+
 .works .box-container .box:hover .image .content {
   transform: translateY(0);
 }
@@ -388,7 +393,7 @@ margin-bottom: 30px;
 
 .contact {
   background: var(--light-bg);
-  
+
 }
 
 .contact .heading {
@@ -401,14 +406,17 @@ margin-bottom: 30px;
   flex-wrap: wrap;
   gap: 3rem;
 }
+
 .contact .box-container .box {
   width: 30rem;
 }
+
 .contact .box-container .box h3 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
   margin-left: 51px;
 }
+
 .contact .box-container .box p {
   font-size: 1.2rem;
   color: var(--light-color);
@@ -424,8 +432,8 @@ margin-bottom: 30px;
   margin-bottom: 2.5rem;
   text-transform: lowercase;
   margin-left: 52px;
- 
-  
+
+
 }
 
 .contact .box-container .box .new h3 {
@@ -433,12 +441,12 @@ margin-bottom: 30px;
   margin-bottom: 1rem;
   margin-left: 52px;
   margin-top: 25px;
-  
+
 }
 
 .contact .box-container form {
   flex: 2 2 20rem;
- 
+
 }
 
 .contact .box-container form .inputBox {
@@ -451,11 +459,11 @@ margin-bottom: 30px;
 
 .contact .box-container form .inputBox input {
   width: 47%;
-  
+
 }
 
 
-.contact .box-container form .inputBox input{
+.contact .box-container form .inputBox input {
 
   border-radius: 3rem;
   padding: 0.8rem 0.8rem;
@@ -464,15 +472,17 @@ margin-bottom: 30px;
   margin: 0.7rem 0.1rem;
 
 }
+
 .contact .box-container form textarea {
   border-radius: 5rem;
   padding: 1rem 1.6rem;
   font-size: 1.2rem;
   color: var(--black);
- margin-top: 20px;
- margin-left: 55px;
- margin-right: 40px;
+  margin-top: 20px;
+  margin-left: 55px;
+  margin-right: 40px;
 }
+
 .contact .box-container form textarea {
   width: 85%;
   border-radius: 1rem;
@@ -482,7 +492,7 @@ margin-bottom: 30px;
 }
 
 .contact .box-container form .btn {
-  color: var(--black);  
+  color: var(--black);
   background: var(--white);
   border: 0.1rem solid var(--black);
   margin-top: 1rem;
@@ -501,9 +511,9 @@ margin-bottom: 30px;
 
   .contact .box-container form {
     flex: 2 2 20rem;
-   
+
   }
-  
+
   .contact .box-container form .inputBox {
     display: flex;
     flex-wrap: wrap;
@@ -511,37 +521,39 @@ margin-bottom: 30px;
     margin-left: 50px;
     margin-right: 60px;
   }
-  
+
   .contact .box-container form .inputBox input {
     width: 48%;
-    
+
   }
-  
-  
-  .contact .box-container form .inputBox input{
-  
+
+
+  .contact .box-container form .inputBox input {
+
     border-radius: 3rem;
-    padding:1.1rem 1.1rem;
+    padding: 1.1rem 1.1rem;
     font-size: 0.8rem;
     color: var(--black);
     margin: 0.8rem 0.1rem;
-  
+
   }
+
   .contact .box-container form textarea {
     border-radius: 5rem;
     padding: 1rem 1.6rem;
     font-size: 1rem;
     color: var(--black);
-   margin-top: 20px;
-   margin-left: 55px;
-   margin-right: 60px;
+    margin-top: 20px;
+    margin-left: 55px;
+    margin-right: 60px;
   }
+
   .contact .box-container form textarea {
     width: 85%;
     border-radius: 1rem;
     resize: none;
     height: 15rem;
-  
+
   }
 
 }
@@ -552,7 +564,7 @@ margin-bottom: 30px;
   text-align: center;
 }
 
-.footer  img{
+.footer img {
 
   margin-top: -50px;
   width: 20%;
@@ -562,6 +574,7 @@ margin-bottom: 30px;
 
 
 }
+
 .footer p {
   margin-top: -42px;
   margin-bottom: 2rem;
@@ -598,6 +611,7 @@ margin-bottom: 30px;
   background: var(--twitter-color);
   color: var(--white);
 }
+
 .footer .socials ion-icon:nth-child(3) {
   color: var(--youtube-color);
 }
@@ -621,17 +635,18 @@ margin-bottom: 30px;
   .footer {
     text-align: center;
   }
-  
-  .footer  img{
-  
+
+  .footer img {
+
     margin-top: -50px;
     width: 60%;
     margin-right: 20px;
     margin-left: 0px;
-  
-  
-  
+
+
+
   }
+
   .footer p {
     margin-top: -42px;
     margin-bottom: 2rem;
@@ -639,7 +654,7 @@ margin-bottom: 30px;
     color: gray;
     line-height: 1.8;
   }
-  
+
   .footer .socials ion-icon {
     font-size: 1.5rem;
     color: var(--black);
@@ -650,9 +665,7 @@ margin-bottom: 30px;
     cursor: pointer;
     margin-bottom: 30px;
   }
-  
-  
+
+
 
 }
-
-
